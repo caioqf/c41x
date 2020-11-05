@@ -150,7 +150,77 @@ body {
   text-align: center;
   font-size: 30px;
 }
-
+.skill-container {
+  background-color: #1a1d1e;
+  border: solid 1px #878683;
+  border-radius: 16px;
+  color: white;
+  height: 100pct;
+  width: 50%;
+  padding: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.skill-hide {
+  opacity: 0;
+}
+.skill-tcaption {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.25abs;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 8px;
+  text-align: center;
+}
+.skill-table {
+  padding: 16px;
+  width: 100pct;
+}
+.skill-theader {
+  display: none;
+}
+.skill-tdata {
+  border-bottom: 1px solid #494847;
+  padding: 2px;
+  width: 52%;
+}
+.skill-tfixed {
+  border-bottom: 1px solid #494847;
+  padding: 2px;
+  width: 212px;
+}
+.skill-tag {
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 0.8rem;
+  line-height: 120pct;
+  margin-right: 4px;
+  padding: 2px;
+  color: black;
+}
+.beginner {
+  background-color: #ffd700;
+}
+.advanced {
+  background-color: #ff0000;
+}
+.interested {
+  background-color: #bef992;
+}
+.intermediary {
+  background-color: #ff4d00;
+}
+.not-interested {
+  background-color: #e43f5a;
+}
+.work-experience {
+  background-color: #3282b8;
+}
 #back-button {
   font-size: 25px;
 }
