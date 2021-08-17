@@ -1,0 +1,226 @@
+/*Reset style*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+
+  /* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after {
+  content: "";
+  content: none;
+}
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* FONT PATHS */
+@font-face {
+    font-family: "Hack";
+    src: url("/fonts/hack-regular.woff2") format("woff2"),
+      url("/fonts/hack-regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Hack";
+    src: url("/fonts/hack-bold.woff2") format("woff2"),
+    url("/fonts/hack-bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+  }
+/*Links h1 and p*/
+a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 3px;
+  border-bottom: 2px solid #878683;
+  
+}
+a:hover {
+    border-bottom: 2px solid #494847;
+}
+
+ul li {
+  display: inline-block;
+  margin: 20px;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  margin: 30px;
+}
+
+p {
+  font-size: 20px;
+  margin: 30px;
+}
+/*Actual styles*/
+
+body {
+  font-family: Hack, monospace;
+  background-color: black;
+  color: white;
+}
+
+#logo {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#main-container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#container-contact, #container-principal {
+  margin: 150px 120px 150px 120px;
+}
+
+#container-contact ul li{
+  display: block;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+#container-contact h1{
+  text-align: unset;
+  margin-left: 0;
+}
+
+#container-contact h2{
+  text-align: unset;
+  margin-left: 0;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+#container-contact p{
+  text-align: unset;
+  margin-left: 0;
+}
+
+#container-skills {
+  padding: 20px;
+  margin: 150px auto;
+  background-color: rgb(22, 22, 22);
+  border: 1px solid rgb(97, 95, 95);
+  width: 50%;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+#container-skills >  h3{
+  text-align: center;
+  font-size: 30px;
+}
+.skill-container {
+  background-color: #1a1d1e;
+  border: solid 1px #878683;
+  border-radius: 16px;
+  color: white;
+  height: 100pct;
+  width: 50%;
+  padding: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.skill-hide {
+  opacity: 0;
+}
+.skill-tcaption {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.25abs;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 8px;
+  text-align: center;
+}
+.skill-table {
+  padding: 16px;
+  width: 100pct;
+}
+.skill-theader {
+  display: none;
+}
+.skill-tdata {
+  border-bottom: 1px solid #494847;
+  padding: 2px;
+  width: 52%;
+}
+.skill-tfixed {
+  border-bottom: 1px solid #494847;
+  padding: 2px;
+  width: 212px;
+}
+.skill-tag {
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 0.8rem;
+  line-height: 120pct;
+  margin-right: 4px;
+  padding: 2px;
+  color: black;
+}
+.beginner {
+  background-color: #ffd700;
+}
+.advanced {
+  background-color: #ff0000;
+}
+.interested {
+  background-color: #bef992;
+}
+.intermediary {
+  background-color: #ff4d00;
+}
+.not-interested {
+  background-color: #e43f5a;
+}
+.work-experience {
+  background-color: #3282b8;
+}
+#back-button {
+  font-size: 25px;
+}
